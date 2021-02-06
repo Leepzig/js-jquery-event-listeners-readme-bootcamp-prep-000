@@ -22,7 +22,7 @@ function frameIt() {
 
 function pressIt() {
   $('').on('keydown', functino(key){
-    if (key.which === )
+    if (key.which === 71)
   })
 }
 
