@@ -19,3 +19,7 @@ function frameIt() {
     //add class tasty
   })
 }
+
+function pressIt() {
+  $('')
+}
