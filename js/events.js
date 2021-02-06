@@ -16,10 +16,18 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    //add class tasty
+    $('img').addClass('tasty')
   })
 }
 
 function pressIt() {
-  $('')
+  $('').on('keydown', functino(){
+    key.which === g
+  })
+}
+
+function submitIt() {
+  $('').on('submit', function(){
+    alert('Your form is going to be submitted now.')
+  })
 }
