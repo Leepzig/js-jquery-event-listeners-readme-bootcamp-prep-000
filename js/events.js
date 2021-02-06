@@ -2,13 +2,20 @@
 
 $(document).ready(function(){
   getIt()
-// call functions here
-
+  frameIt()
+  pressIt()
+  submitIt()
 });
 
 
 function getIt() {
   $('p').on('click', function() {
     alert('Hey!')
+  })
+}
+
+function frameIt() {
+  $('img').on('load', function() {
+    //add class tasty
   })
 }
