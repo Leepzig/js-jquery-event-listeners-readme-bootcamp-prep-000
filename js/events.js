@@ -21,8 +21,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('').on('keydown', functino(){
-    key.which === g
+  $('').on('keydown', functino(key){
+    if (key.which === )
   })
 }
 
